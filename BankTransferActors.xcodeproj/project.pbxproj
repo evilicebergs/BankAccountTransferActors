@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D594F2626AB44510022689E /* fooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D594F2526AB44510022689E /* fooApp.swift */; };
+		8D594F2626AB44510022689E /* BankTransferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D594F2526AB44510022689E /* BankTransferApp.swift */; };
 		8D594F2826AB44510022689E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D594F2726AB44510022689E /* ContentView.swift */; };
 		8D594F2A26AB44520022689E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D594F2926AB44520022689E /* Assets.xcassets */; };
 		8D594F2D26AB44520022689E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D594F2C26AB44520022689E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D594F2226AB44510022689E /* foo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D594F2526AB44510022689E /* fooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fooApp.swift; sourceTree = "<group>"; };
+		8D594F2226AB44510022689E /* BankTransferActors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankTransferActors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D594F2526AB44510022689E /* BankTransferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTransferApp.swift; sourceTree = "<group>"; };
 		8D594F2726AB44510022689E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D594F2926AB44520022689E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D594F2C26AB44520022689E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		8D594F2326AB44510022689E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D594F2226AB44510022689E /* foo.app */,
+				8D594F2226AB44510022689E /* BankTransferActors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		8D594F2426AB44510022689E /* foo */ = {
 			isa = PBXGroup;
 			children = (
-				8D594F2526AB44510022689E /* fooApp.swift */,
+				8D594F2526AB44510022689E /* BankTransferApp.swift */,
 				8D594F2726AB44510022689E /* ContentView.swift */,
 				8D594F2926AB44520022689E /* Assets.xcassets */,
 				8D594F2B26AB44520022689E /* Preview Content */,
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D594F2126AB44510022689E /* foo */ = {
+		8D594F2126AB44510022689E /* BankTransferActors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D594F3026AB44520022689E /* Build configuration list for PBXNativeTarget "foo" */;
+			buildConfigurationList = 8D594F3026AB44520022689E /* Build configuration list for PBXNativeTarget "BankTransferActors" */;
 			buildPhases = (
 				8D594F1E26AB44510022689E /* Sources */,
 				8D594F1F26AB44510022689E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = foo;
+			name = BankTransferActors;
 			productName = foo;
-			productReference = 8D594F2226AB44510022689E /* foo.app */;
+			productReference = 8D594F2226AB44510022689E /* BankTransferActors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,14 +95,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					8D594F2126AB44510022689E = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 8D594F1D26AB44510022689E /* Build configuration list for PBXProject "foo" */;
+			buildConfigurationList = 8D594F1D26AB44510022689E /* Build configuration list for PBXProject "BankTransferActors" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D594F2126AB44510022689E /* foo */,
+				8D594F2126AB44510022689E /* BankTransferActors */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D594F2826AB44510022689E /* ContentView.swift in Sources */,
-				8D594F2626AB44510022689E /* fooApp.swift in Sources */,
+				8D594F2626AB44510022689E /* BankTransferApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +182,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -243,6 +244,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -269,7 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"foo/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 3Z5R6WRVTZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -277,13 +279,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.foo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evilicebergs.actorsUnderstanding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"foo/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 3Z5R6WRVTZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,13 +309,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.foo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evilicebergs.actorsUnderstanding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D594F1D26AB44510022689E /* Build configuration list for PBXProject "foo" */ = {
+		8D594F1D26AB44510022689E /* Build configuration list for PBXProject "BankTransferActors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D594F2E26AB44520022689E /* Debug */,
@@ -333,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D594F3026AB44520022689E /* Build configuration list for PBXNativeTarget "foo" */ = {
+		8D594F3026AB44520022689E /* Build configuration list for PBXNativeTarget "BankTransferActors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D594F3126AB44520022689E /* Debug */,
