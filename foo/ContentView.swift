@@ -21,6 +21,10 @@ actor BankAccount {
         self.balance = balance
     }
     
+    nonisolated func getCurrentAPR() -> Double {
+        return 0.3
+    }
+    
     func deposit(_ amount: Double) {
         balance += amount
     }
@@ -52,6 +56,9 @@ struct ContentView: View {
                     try? await bankAccount.transfer(amount: 300, to: otherAccount)
                 }
             }
+            
+            print(bankAccount.getCurrentAPR())
+            
             
         } label: {
             Text("Transfer")
